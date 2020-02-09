@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: KarmaConfigs page
 description: Here you will be able to find all my plugins in beta-status and my plugins
+github:
+  is_project_page: false
