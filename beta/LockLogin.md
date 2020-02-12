@@ -14,5 +14,5 @@ as expected.
 
 
 ### WARNING
-The actual version is not made for spigot, yeas, you can use it, but most of the events like chatting and other will not
+The actual version is not made for spigot, yes, you can use it, but most of the events like chatting and other will not
 get blocked, use it at your own risk
