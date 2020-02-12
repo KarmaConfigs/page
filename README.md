@@ -19,3 +19,4 @@ The list is ordered by most old to most new
 
 1. LockLogin (Login system)
   - [Download](https://github.com/KarmaConfigs/page/raw/master/beta/LockLogin.jar)
+    - [How to install](https://github.com/KarmaConfigs/page/blob/master/beta/LockLogin.md)
