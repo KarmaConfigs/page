@@ -14,3 +14,8 @@ The list is ordered by most old to most new
   - [Spigot page](https://www.spigotmc.org/resources/epiccome.71328/)
   - [Bukkit page](https://dev.bukkit.org/projects/epicwelcome)
     - [bStats](https://bstats.org/plugin/bukkit/EpicCome/5617)
+    
+### Beta list
+
+1. LockLogin (Login system)
+  - [Download](https://github.com/KarmaConfigs/page/raw/master/beta/LockLogin.jar)
