@@ -2,7 +2,7 @@
 
 ## Installing >> Spigot
 To install the plugin in spigot is really simple, just drag LockLogin.jar into your plugins folder and load the
-plugin with plugin or reload the server
+plugin with plugman or reload the server
 
 ## Installing >> Bungeecord
 To install the plugin in bungeecord is more simple that it seems, just drag LockLogin.jar into your plugins folder
