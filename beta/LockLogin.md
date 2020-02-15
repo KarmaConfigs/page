@@ -11,8 +11,3 @@ of BungeeCord and reload Bungeecord.
 You must also drag LockLogin.jar to each of your plugins folder (Spigot server), because if bungeecord is enabled
 LockLogin will work as Listener on Spigot, so, if you don't put LockLogin on the servers, the plugin, won't work
 as expected.
-
-
-### WARNING
-The actual version is not made for spigot, yes, you can use it, but most of the events like chatting and other will not
-get blocked, use it at your own risk
