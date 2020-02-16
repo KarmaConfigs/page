@@ -30,6 +30,6 @@ As you've seen before, there's a "method" option, there're 2 methods, and 2 puni
 > kick ( Uses the Spigot kick system, or in case of Bungeecord, disonnects the player )
 
 ## Methods
-> deny ( Deny the connection )
+> deny ( Deny the connection, also it sends a "debug" message to the players with the permission: "locklogin.country.warning"  )
 
 > warning ( Sends a warning to the online players with the permission: "locklogin.country.warning" )
