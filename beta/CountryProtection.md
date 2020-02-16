@@ -26,8 +26,10 @@ As you've seen before, there's a "method" option, there're 2 methods, and 2 puni
 
 ## Punishments
 > ban ( Uses a built-in ban system made only for this, the only way to unban is doing it manually )
+
 > kick ( Uses the Spigot kick system, or in case of Bungeecord, disonnects the player )
 
 ## Methods
 > deny ( Deny the connection )
+
 > warning ( Sends a warning to the online players with the permission: "locklogin.country.warning" )
