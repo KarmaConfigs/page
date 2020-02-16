@@ -41,7 +41,7 @@ As you've seen before, there's a "method" option, there're 2 methods, and 2 puni
 As you can be thinking, is a list of the countries that aren't allowed to play on the server.
 The format is the country name, or country code.
 
-## How to don't block any country?
+## How to allow all countries?
 Just leave "Blocked" like that:
 ```
 Country:
