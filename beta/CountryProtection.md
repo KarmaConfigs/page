@@ -17,6 +17,9 @@ Country:
   Method: deny;kick
   DisplayOnConsole: true > true = display "DisplayMessage" when a player joins / false = don't display anything
   DisplayMessage: "&eLockLogin &7>> &a{player} &7comes from &f{country} &8[ &f{countryCode} &8]"
+  Blocked:
+    - Egypt
+    - EG
 ```
 
 # What is "Method"
@@ -33,3 +36,18 @@ As you've seen before, there's a "method" option, there're 2 methods, and 2 puni
 > deny ( Deny the connection, also it sends a "debug" message to the players with the permission: "locklogin.country.warning"  )
 
 > warning ( Sends a warning to the online players with the permission: "locklogin.country.warning" )
+
+# What is "Blocked"
+As you can be thinking, is a list of the countries that aren't allowed to play on the server.
+The format is the country name, or country code.
+
+## How to don't block any country?
+Just leave "Blocked" like that:
+```
+Country:
+  Protection: true > true = enabled / false = disabled
+  Method: deny;kick
+  DisplayOnConsole: true > true = display "DisplayMessage" when a player joins / false = don't display anything
+  DisplayMessage: "&eLockLogin &7>> &a{player} &7comes from &f{country} &8[ &f{countryCode} &8]"
+  Blocked: []
+```
