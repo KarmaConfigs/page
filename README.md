@@ -18,5 +18,6 @@ The list is ordered by most old to most new
 ### Beta list
 
 1. LockLogin (Login system)
-  - [Download](https://github.com/KarmaConfigs/page/raw/master/beta/LockLogin.jar)
+  - [Spigot page](https://www.spigotmc.org/resources/gsa-locklogin.75156/)
+  - [Download github](https://github.com/KarmaConfigs/page/raw/master/beta/LockLogin.jar)
     - [How to install](https://github.com/KarmaConfigs/page/blob/master/beta/LockLogin.md)
