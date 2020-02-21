@@ -23,3 +23,11 @@ The list is ordered by most old to most new
     - [How to install](https://github.com/KarmaConfigs/page/blob/master/beta/LockLogin.md)
     - [bStats Spigot](https://bstats.org/plugin/bukkit/LockLogin/6513)
     - [bStats Bungee](https://bstats.org/plugin/bungeecord/LockLogin/6512)
+ 
+```
+If you want to donate for my plugins
+(I will never do a paid plugin, because
+I think programing, it's free), you can
+donate by clicking the link below:
+```
+[Donate](https://www.paypal.me/karmaconfig)
