@@ -15,14 +15,17 @@ The list is ordered by most old to most new
   - [Bukkit page](https://dev.bukkit.org/projects/epicwelcome)
     - [bStats](https://bstats.org/plugin/bukkit/EpicCome/5617)
     
-### Beta list
-
-1. LockLogin (Login system)
+3.LockLogin (Login system)
   - [Spigot page](https://www.spigotmc.org/resources/gsa-locklogin.75156/)
   - [Download github](https://github.com/KarmaConfigs/page/raw/master/beta/LockLogin.jar)
     - [How to install](https://github.com/KarmaConfigs/page/blob/master/beta/LockLogin.md)
     - [bStats Spigot](https://bstats.org/plugin/bukkit/LockLogin/6513)
     - [bStats Bungee](https://bstats.org/plugin/bungeecord/LockLogin/6512)
+    
+### Beta list
+
+1.RunFromFire (Minigame)
+  - [Download github](https://github.com/KarmaConfigs/page/raw/master/beta/RunFromFire.jar)
  
 ```
 If you want to donate for my plugins
