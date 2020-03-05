@@ -18,7 +18,7 @@ The list is ordered by most old to most new
 3.LockLogin (Login system)
   - [Spigot page](https://www.spigotmc.org/resources/gsa-locklogin.75156/)
   - [Download github](https://github.com/KarmaConfigs/page/raw/master/beta/LockLogin.jar)
-    - [How to install](https://github.com/KarmaConfigs/page/blob/master/beta/LockLogin.md)
+    - [Wiki](https://github.com/KarmaConfigs/page/wiki/LockLogin)
     - [bStats Spigot](https://bstats.org/plugin/bukkit/LockLogin/6513)
     - [bStats Bungee](https://bstats.org/plugin/bungeecord/LockLogin/6512)
     
