@@ -1,31 +1,31 @@
 body {
 	background-color: rgb(62, 62, 62);
-	cursor: url(cursor.cur), default;
+	cursor: url(https://karmaconfigs.ml/resources/cursors/cursor.cur), default;
 }
 
 @font-face {
   font-family: MenuFont;
-  src: url("menu.ttf");
+  src: url("https://karmaconfigs.ml/resources/fonts/menu.ttf");
 }
 
 @font-face {
   font-family: TitleFont;
-  src: url("title.ttf");
+  src: url("https://karmaconfigs.ml/resources/fonts/title.ttf");
 }
 
 @font-face {
   font-family: SubtitleFont_Bold;
-  src: url("subtitle_Bold.ttf");
+  src: url("https://karmaconfigs.ml/resources/fonts/subtitle_Bold.ttf");
 }
 
 @font-face {
   font-family: SubtitleFont;
-  src: url("subtitle.ttf");
+  src: url("https://karmaconfigs.ml/resources/fonts/subtitle.ttf");
 }
 
 @font-face {
   font-family: SectionsFont;
-  src: url("sections.ttf");
+  src: url("https://karmaconfigs.ml/resources/fonts/sections.ttf");
 }
 
 .topnav {
@@ -36,7 +36,7 @@ body {
 }
 
 a:hover {
-	cursor: url(click.cur), default;
+	cursor: url(https://karmaconfigs.ml/resources/cursors/click.cur), default;
 }
 
 .topnav a {
@@ -62,7 +62,7 @@ div.header {
 	height: 320px;
 	width: auto;
 	text-align: center;
-	background-image: url("sunset.png");
+	background-image: url("https://karmaconfigs.ml/resources/images/banner/sunset.png");
 	background-size: cover;
 }
 
@@ -208,5 +208,5 @@ div.footer {
 }
 
 div.footer p:hover {
-	cursor: url(copyright.cur), default;
+	cursor: url(https://karmaconfigs.ml/resources/cursors/copyright.cur), default;
 }
