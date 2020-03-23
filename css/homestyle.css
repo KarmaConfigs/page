@@ -6,6 +6,37 @@ body {
   cursor: url(https://karmaconfigs.ml/img/cursors/cursor.cur), default;
 }
 
+@font-face {
+  font-family: Minecraft;
+  src: url("fonts/title.ttf");
+}
+
+.button {
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  height: auto;
+  width: auto;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_center.png');
+  background-repeat: repeat;
+}
+
+.button span {
+  position: relative;
+  line-height: 40px;
+  bottom: 3px;
+}
+
+.button:hover {
+  border-bottom: 4px solid #59639A;
+  border-right: 2px solid #59639A;
+  border-left: 2px solid #BDC6FF;
+  border-top: 2px solid #BDC6FF;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
+  color: #FFFFA0;
+  font-family: Minecraft;
+}
+
 a { 
     transition: all 0.3s ease; 
     text-decoration: none;
