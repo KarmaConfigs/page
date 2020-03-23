@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,14 +25,13 @@
     document.onclick=reEnable  
     }
     </script>
+    <script src="audioplayer.js"></script>
 </head>
 
 <body>
-    <script>
-        function playAudio(url) {
-            new Audio(url).play();
-        }
-    </script>
+    <div id="boton" class="button" onclick="chooseRandom()" onclick="playAudio('sound/error.mp3')">
+        <span>Toggle music</span>
+    </div>
     <div class="tm-container">
         <div class="tm-site-header"></div>
         <div class="tm-site-header-overlay">
@@ -63,7 +61,7 @@
                                         <a class="nav-link tm-nav-link", href="https://patreon.com/karmaconfigs", target="_blank", onclick="playAudio('sound/click.mp3')">Patreon</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link tm-nav-link", href="https://discord.me/gsa-dev", target="_blank", onclick="playAudio('sound/click.mp3')">Get support on discord</a>
+                                        <a class="nav-link tm-nav-link", href="https://invite.gg/gsadev", target="_blank", onclick="playAudio('sound/click.mp3')">Discord</a>
                                     </li>
                                 </ul>
                             </div>
