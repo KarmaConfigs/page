@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test the URL reader</title>
+	<script src="readScript.js"></script>
+	<script src="qrMaker.js"></script>
+	<script src="html2canvas.js"></script>
+</head>
+<body onload="setH(), setTimeout(canvas, 100), setTimeout(hideBody, 200);" id="body">
+	<div id="image-wrap">
+		<div id="wpbody-content">
+	    	<div class="wrap">
+	         	<h1>QR Code: null</h1>
+		    </div>
+		</div>
+		<div id="qrcode"></div>
+		<script type="text/javascript">
+			new QRCode(document.getElementById("qrcode"), getInfo());
+		</script>
+	</div>
+	<script type="text/javascript">
+		function canvas() {
+			html2canvas(document.querySelector("#body")).then(canvas => {
+				document.body.appendChild(canvas)
+			});
+		}
+	</script>
+</body>
+</html>
