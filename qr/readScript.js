@@ -1,10 +1,10 @@
 function getQR() {
-	var url_string = window.location.href.toString().split("#");
+	var url_string = window.location.href.toString().split("?");
 
 	return url_string[2];
 }
 function getName() {
-    var url_string = window.location.href.toString().split('#');
+    var url_string = window.location.href.toString().split('?');
 
     return url_string[1];
 }
