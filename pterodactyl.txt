@@ -1,6 +1,6 @@
 #!/bin/bash
 #Can be grabbed from
-#wget https://bit.ly/2X6sZVU && bash 2X6sZVU
+#wget https://raw.githubusercontent.com/KarmaConfigs/page/master/pterodactyl.txt && bash 2X6sZVU
 echo 'Enter your FQDN panel.example.com'
 read fqdn
 apt update
