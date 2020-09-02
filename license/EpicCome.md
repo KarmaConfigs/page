@@ -1,4 +1,4 @@
-#EpicCome
+# EpicCome
 When decompiling, opening the .jar or reading this, 
 <br>you are accepting the conditions below
 
