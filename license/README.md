@@ -11,7 +11,7 @@ Codes with
  * without GSA team authorization
  * will be a violation of
  * terms of use determined
- * in <a href="http://karmaconfigs.ml/license/EpicCome.md"> here </a>
+ * in <a href="http://karmaconfigs.ml/license/"> here </a>
  */
 class AnyClass {}
 ```
