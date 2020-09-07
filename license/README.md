@@ -35,3 +35,6 @@ if you use it, legal actions will be performed
 - Using any code from any class with Private GSA code tag<br>
 with the correspondent permission ( GSA allowed you to use )<br>
 that code, will require a link to our discord and to [KarmaConfigs](https://www.spigotmc.org/members/karmaconfigs.730858/)
+
+- Modifying the code from any class with Private GSA code tag<br>
+is totally forbidden, even with the permission of GSA to use the code
