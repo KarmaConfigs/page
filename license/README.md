@@ -2,6 +2,8 @@
 When decompiling, opening the .jar or reading this, 
 <br>you are accepting the conditions below
 
+The whole plugin source code own by GSA is under it's project license, but
+
 Codes with 
 ```java
 /**
@@ -14,6 +16,12 @@ Codes with
  * in <a href="http://karmaconfigs.ml/license/"> here </a>
  */
 class AnyClass {}
+```
+or that contains
+```
+/**
+* Private GSA code
+*/
 ```
 are under these conditions
 
