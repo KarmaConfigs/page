@@ -18,7 +18,7 @@ Codes with
 class AnyClass {}
 ```
 or that contains
-```
+```java
 /**
 * Private GSA code
 */
