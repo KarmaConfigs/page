@@ -36,34 +36,34 @@ function chooseRandom() {
   if (random < 99) {
     if(a==0)
     {
-      playMusic('sound/M.mp3');
+      playMusic('https://raw.githubusercontent.com/KarmaConfigs/page/master/sound/M.mp3');
     }
     if(a==1)
     {
-      playMusic('sound/I.mp3');
+      playMusic('https://raw.githubusercontent.com/KarmaConfigs/page/master/sound/I.mp3');
     }
     if (a==2) {
-     playMusic('sound/N.mp3');
+     playMusic('https://raw.githubusercontent.com/KarmaConfigs/page/master/sound/N.mp3');
     }
     if (a==4) {
-      playMusic('sound/E.mp3');
+      playMusic('https://raw.githubusercontent.com/KarmaConfigs/page/master/sound/E.mp3');
     }
     if (a==5) {
-      playMusic('sound/C.mp3');
+      playMusic('https://raw.githubusercontent.com/KarmaConfigs/page/master/sound/C.mp3');
     }
     if (a==6) {
-      playMusic('sound/R.mp3');
+      playMusic('https://raw.githubusercontent.com/KarmaConfigs/page/master/sound/R.mp3');
     }
     if (a==7) {
-      playMusic('sound/T.mp3');
+      playMusic('https://raw.githubusercontent.com/KarmaConfigs/page/master/sound/T.mp3');
     }
   } else {
     var final = Math.random();
     if (a == 0) {
-      playMusic('sound/A.mp3');
+      playMusic('https://raw.githubusercontent.com/KarmaConfigs/page/master/sound/A.mp3');
     }
     if (a == 1) {
-      playMusic('sound/F.mp3');
+      playMusic('https://raw.githubusercontent.com/KarmaConfigs/page/master/sound/F.mp3');
     }
   }
   hideBoton();
