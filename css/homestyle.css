@@ -3,7 +3,7 @@ body {
   font-size: 20px;
   overflow-x: hidden;
   background-color: #323232;
-  cursor: url(https://karmaconfigs.github.io/page/img/cursors/cursor.cur), default;
+  cursor: url(https://raw.githubusercontent.com/KarmaConfigs/page/master/img/cursors/cursor.cur), default;
 }
 
 @font-face {
@@ -44,13 +44,13 @@ a {
 
 a:hover {
  text-decoration: none; 
- cursor: url(https://karmaconfigs.github.io/page/img/cursors/click.cur), default;
+ cursor: url(https://raw.githubusercontent.com/KarmaConfigs/page/master/img/cursors/click.cur), default;
 }
 button:focus { outline: none; }
 
 ins.copyright {
   text-decoration: none;
-  cursor: url(https://karmaconfigs.github.io/page/img/cursors/copyright.cur), default;
+  cursor: url(https://raw.githubusercontent.com/KarmaConfigs/page/master/img/cursors/copyright.cur), default;
 }
 
 a.text {
@@ -76,7 +76,7 @@ ul { line-height: 2; }
 
 .tm-site-header {
     background-color: #474849;
-    background-image: url(https://karmaconfigs.github.io/page/img/stripe.png);
+    background-image: url(https://raw.githubusercontent.com/KarmaConfigs/page/master/img/stripe.png);
     height: 60px;    
 }
 
@@ -90,7 +90,7 @@ ul { line-height: 2; }
     height: 20px;
     width: 68.75%;
     background-color: #474849;      
-    background-image: url(https://karmaconfigs.github.io/page/img/stripe-short.png);
+    background-image: url(https://raw.githubusercontent.com/KarmaConfigs/page/master/img/stripe-short.png);
 }
 
 .tm-header-stripe-short {
@@ -613,7 +613,7 @@ select:not([multiple]) {
   -moz-appearance: none;
   background-position: right 15px center;
   background-repeat: no-repeat;
-  background-image: url('../img/select-arrow.png');
+  background-image: url('https://raw.githubusercontent.com/KarmaConfigs/page/master/img/select-arrow.png');
   padding: 14px 20px;
   padding-right: 20px;
   color: #666;
