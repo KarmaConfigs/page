@@ -17,7 +17,7 @@ Codes with
  */
 class AnyClass {}
 ```
-or
+---------------------------------------
 ```java
 /**
  * Private GSA code
@@ -29,9 +29,22 @@ or
  * in <a href="http://karmaconfigs.cf/license/"> here </a>
  * or (fallback domain) <a href="https://karmaconfigs.github.io/page/license"> here </a>
  */
- class AnyClass()
+ class AnyClass {}
 ```
-or that contains
+---------------------------------------
+```java
+/**
+ * Private GSA code
+ *
+ * The use of this code
+ * without GSA team authorization
+ * will be a violation of
+ * terms of use determined
+ * in <a href="https://karmaconfigs.github.io/page/license"> here </a>
+ */
+ class AnyClass {}
+```
+---------------------------------------
 ```java
 /**
 * Private GSA code
