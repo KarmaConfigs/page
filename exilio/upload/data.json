@@ -1,456 +1,24 @@
 {
   "versions": {
-    "8c": {
-      "Path": "versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.jar",
-      "Size": "9022503",
-      "Hash": "8c0443868b9e46c77d39db61c755679d",
-      "Original": "10180113"
-    },
     "86": {
       "Path": "versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json",
       "Size": "2009",
       "Hash": "8608845e21384fd26609645597c516be",
       "Original": "10889"
+    },
+    "8c": {
+      "Path": "versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.jar",
+      "Size": "9022503",
+      "Hash": "8c0443868b9e46c77d39db61c755679d",
+      "Original": "10180113"
     }
   },
   "mods": {
-    "81": {
-      "Path": "mods/journeymap-1.12.2-5.7.1.jar",
-      "Size": "6453933",
-      "Hash": "8160b970fc14cff30dff2785bb9f964c",
-      "Original": "6990968"
-    },
-    "d7": {
-      "Path": "mods/MekanismGenerators-1.12.2-9.8.3.390.jar",
-      "Size": "293289",
-      "Hash": "d75ddb11a6c1353b046c70d8904fe61e",
-      "Original": "336364"
-    },
-    "d4": {
-      "Path": "mods/cyberware-1.12.2-0.2.11.26.jar",
-      "Size": "761052",
-      "Hash": "d4528eed66d963de6bbee709fb6c2c1a",
-      "Original": "894230"
-    },
-    "ac": {
-      "Path": "mods/JustEnoughIDs-1.0.3-55.jar",
-      "Size": "873486",
-      "Hash": "ac6f54cb5478dd3d0147aedbfe782d5d",
-      "Original": "982320"
-    },
-    "93": {
-      "Path": "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
-      "Size": "28320",
-      "Hash": "93b1715f05be1878da93fca36dd37f2a",
-      "Original": "31802"
-    },
-    "7b": {
-      "Path": "mods/BetterMineshaftsForge-1.12.2-1.3.1.jar",
-      "Size": "276228",
-      "Hash": "7b3a2b0b3d14963e4fd9058fe0816f11",
-      "Original": "288828"
-    },
-    "e8": {
-      "Path": "mods/Pam\u0027s+HarvestCraft+1.12.2zg.jar",
-      "Size": "2656425",
-      "Hash": "e8e1ac67accdeea50116e1e92e592397",
-      "Original": "4912890"
-    },
-    "27": {
-      "Path": "mods/vehicle-mod-0.44.1-1.12.2.jar",
-      "Size": "2056606",
-      "Hash": "276818770667c1bff569d92287c53d95",
-      "Original": "2139906"
-    },
-    "23": {
-      "Path": "mods/CreativeCore_v1.10.29_mc1.12.2.jar",
-      "Size": "1072207",
-      "Hash": "230a8089560eb39a2aecdf01debc0582",
-      "Original": "1178282"
-    },
-    "a5": {
-      "Path": "mods/obfuscate-0.4.2-1.12.2.jar",
-      "Size": "116413",
-      "Hash": "a5d3ac71ec8762fe72a91465de6d30a3",
-      "Original": "129099"
-    },
-    "c1": {
-      "Path": "mods/CoFHWorld-1.12.2-1.3.1.7-universal.jar",
-      "Size": "483738",
-      "Hash": "c196ade3fe4f33b4d38b4de43326ae2d",
-      "Original": "532040"
-    },
-    "35": {
-      "Path": "mods/randompatches-1.12.2-1.22.1.1.jar",
-      "Size": "261614",
-      "Hash": "35857b7f89254226f83ab62468a01812",
-      "Original": "293018"
-    },
-    "39": {
-      "Path": "mods/Stupid+Things-1.12.2-1.1.6.jar",
-      "Size": "1150116",
-      "Hash": "39dd1bef15763bccc63154f9bfc09d41",
-      "Original": "1205052"
-    },
-    "3a": {
-      "Path": "mods/CustomNPCs_1.12.2-(05Jul20).jar",
-      "Size": "9392322",
-      "Hash": "3ab1a5c4b069d574631da5bc1880ebf7",
-      "Original": "9911871"
-    },
-    "f1": {
-      "Path": "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
-      "Size": "774939",
-      "Hash": "f147d3b87f97bb317e1c37cba0dde002",
-      "Original": "848187"
-    },
-    "cc": {
-      "Path": "mods/zerocore-1.12.2-0.1.2.8.jar",
-      "Size": "200451",
-      "Hash": "cc782f73e62792dcdb108449baec110f",
-      "Original": "228623"
-    },
-    "cd": {
-      "Path": "mods/rats-3.2.14-1.12.2.jar",
-      "Size": "4002406",
-      "Hash": "cd34febe728c37c5e93c6bde375705f5",
-      "Original": "4267490"
-    },
-    "a3": {
-      "Path": "mods/MagmaMonsters-0.3.0.jar",
-      "Size": "150705",
-      "Hash": "a3182ce48ab3ac31e4d37fb0acc10a1b",
-      "Original": "157133"
-    },
-    "00": {
-      "Path": "mods/MekanismTools-1.12.2-9.8.3.390.jar",
-      "Size": "109604",
-      "Hash": "0095f13a729ce5873319e36e29a5b5e1",
-      "Original": "159785"
-    },
-    "ad": {
-      "Path": "mods/betternether-0.1.8.6.jar",
-      "Size": "1577764",
-      "Hash": "ad400778cbe98a73f0a2686190dcd079",
-      "Original": "1769238"
-    },
-    "90": {
-      "Path": "mods/BloodMagic-1.12.2-2.4.3-105.jar",
-      "Size": "6863294",
-      "Hash": "90f67913247c8cf549836d724efc87fc",
-      "Original": "7208594"
-    },
-    "8a": {
-      "Path": "mods/Explorercraft-2.2.14.jar",
-      "Size": "530910",
-      "Hash": "8ab9f77b52301b29e1db167b2764b01b",
-      "Original": "704876"
-    },
-    "f8": {
-      "Path": "mods/Trapcraft-1.12.2-2.4.5.jar",
-      "Size": "76480",
-      "Hash": "f83520a3a3c9d21486b1f5cb812f2325",
-      "Original": "92862"
-    },
-    "8f": {
-      "Path": "mods/armoryexpansion-1.4.2.jar",
-      "Size": "58685",
-      "Hash": "8f0c1e2132892c72af510f1ccfe8a688",
-      "Original": "79038"
-    },
-    "ce": {
-      "Path": "mods/bettercaves-1.12.2-2.0.4.jar",
-      "Size": "175854",
-      "Hash": "ceb9c88ab5f8f3514a28ad7244b81757",
-      "Original": "193604"
-    },
-    "09": {
-      "Path": "mods/twilightforest-1.12.2-3.11.1021-universal.jar",
-      "Size": "28004788",
-      "Hash": "0933760943721154f3208782306f04d6",
-      "Original": "28721862"
-    },
-    "6f": {
-      "Path": "mods/ChestTransporter-1.12.2-2.8.8.jar",
-      "Size": "126327",
-      "Hash": "6f5aadb16a4357aad4b8bc662b76de77",
-      "Original": "314060"
-    },
-    "e0": {
-      "Path": "mods/Clumps-3.1.2.jar",
-      "Size": "11356",
-      "Hash": "e0c4c4f04aeb0e0a48fc7534f9e7d6be",
-      "Original": "13792"
-    },
-    "02": {
-      "Path": "mods/jei_1.12.2-4.15.0.268.jar",
-      "Size": "589126",
-      "Hash": "02f985065e7a2fdd17196b3030a067a4",
-      "Original": "647239"
-    },
-    "e6": {
-      "Path": "mods/Mekanism-1.12.2-9.8.3.390.jar",
-      "Size": "7195985",
-      "Hash": "e622b8365b9a1190b3b6cc042854e870",
-      "Original": "7863657"
-    },
-    "49": {
-      "Path": "mods/InfernalMobs-1.12.2.jar",
-      "Size": "165576",
-      "Hash": "490f29a18ad3445f4dbd0616e9c06b0d",
-      "Original": "183579"
-    },
-    "f4": {
-      "Path": "mods/HardcoreDarkness-MC1.12.2-2.0.jar",
-      "Size": "28668",
-      "Hash": "f4bdcba26a2f6d3dff66856e47ebbecc",
-      "Original": "32327"
-    },
-    "da": {
-      "Path": "mods/WanionLib-1.12.2-2.2.jar",
-      "Size": "116576",
-      "Hash": "da46d9a391cb6ac4d3bd453db2158e58",
-      "Original": "129188"
-    },
-    "5b": {
-      "Path": "mods/Botania+r1.10-363.jar",
-      "Size": "12984287",
-      "Hash": "5ba76d3db9345fa9e398523bddda59f3",
-      "Original": "13814617"
-    },
-    "42": {
-      "Path": "mods/EvilCraft-1.12.2-0.10.78.jar",
-      "Size": "2721050",
-      "Hash": "42b80a6688b5bc6d24f4f197e43890f2",
-      "Original": "2957006"
-    },
     "96": {
       "Path": "mods/preview_OptiFine_1.12.2_HD_U_F6_pre1.jar",
       "Size": "2068264",
       "Hash": "96e607cab3d74db414646711c094756d",
       "Original": "2599250"
-    },
-    "76": {
-      "Path": "mods/randomtweaks-1.12.2-2.8.2.0.jar",
-      "Size": "255181",
-      "Hash": "766ed55a0f37b4d1f3a3d992c6bdd52b",
-      "Original": "287170"
-    },
-    "61": {
-      "Path": "mods/EnderCore-1.12.2-0.5.76.jar",
-      "Size": "592805",
-      "Hash": "6164be012de6ee761e37f54a74074125",
-      "Original": "647959"
-    },
-    "f7": {
-      "Path": "mods/PlayerRevive_v1.2.35_mc1.12.2.jar",
-      "Size": "5125154",
-      "Hash": "f7ae98bdc5f46acb3eed5bae8d3c952b",
-      "Original": "5131964"
-    },
-    "6e": {
-      "Path": "mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
-      "Size": "1943153",
-      "Hash": "6eca041bbf28949b60ecf1179d561156",
-      "Original": "2219736"
-    },
-    "10": {
-      "Path": "mods/Mantle-1.12-1.3.3.55.jar",
-      "Size": "759956",
-      "Hash": "1026f5f8d3c4997831decd9023ca65a6",
-      "Original": "843486"
-    },
-    "a9": {
-      "Path": "mods/conarm-1.12.2-1.2.5.9.jar",
-      "Size": "731729",
-      "Hash": "a91589e2f96fc28bc05c2dac88d4a95d",
-      "Original": "894608"
-    },
-    "3b": {
-      "Path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-      "Size": "642459",
-      "Hash": "3b5e44db5ac96fb23a439590b6731a31",
-      "Original": "704330"
-    },
-    "0a": {
-      "Path": "mods/Grue-1.12.2-1.8.0.jar",
-      "Size": "557004",
-      "Hash": "0ade0b82f2ee6537be77c5a46322c0d0",
-      "Original": "564997"
-    },
-    "32": {
-      "Path": "mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
-      "Size": "145021",
-      "Hash": "320accf690ccc1c8a23679beb63fb615",
-      "Original": "182379"
-    },
-    "d3": {
-      "Path": "mods/BetterFps-Mod-1.12.2.jar",
-      "Size": "138776",
-      "Hash": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4",
-      "Original": "155196"
-    },
-    "28": {
-      "Path": "mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
-      "Size": "83649",
-      "Hash": "28970430074736ae6efbe4f7c353b30a",
-      "Original": "98845"
-    },
-    "08": {
-      "Path": "mods/MineTraps-1.12.2-(v.1.0.4).jar",
-      "Size": "129493",
-      "Hash": "083f4eeb18523e4b38f55fe13974dc98",
-      "Original": "165571"
-    },
-    "c2": {
-      "Path": "mods/astralsorcery-1.12.2-1.10.27.jar",
-      "Size": "24583883",
-      "Hash": "c2db411b6e678c7e24035cd5c0525264",
-      "Original": "25028160"
-    },
-    "98": {
-      "Path": "mods/Erebus-1.0.31.jar",
-      "Size": "11151621",
-      "Hash": "98c6ea4b8f617b6c1c1ec84dd20876e1",
-      "Original": "12363576"
-    },
-    "7e": {
-      "Path": "mods/furniture-6.3.1-1.12.2.jar",
-      "Size": "2029927",
-      "Hash": "7e4f4d160032658e095eff8221977800",
-      "Original": "2435626"
-    },
-    "b1": {
-      "Path": "mods/UniDict-1.12.2-2.9.2.jar",
-      "Size": "182279",
-      "Hash": "b1ba004241d86a3e1280c8911c2b4ff2",
-      "Original": "192476"
-    },
-    "b9": {
-      "Path": "mods/RandomThings-MC1.12.2-4.2.7.4.jar",
-      "Size": "2629698",
-      "Hash": "b91502e1810cdf13dfd5fb3b4e15e5ad",
-      "Original": "3292861"
-    },
-    "c4": {
-      "Path": "mods/VariedCommodities_1.12.2(21nov19).jar",
-      "Size": "1250344",
-      "Hash": "c4abbbf3e8705c5be1769f7617041803",
-      "Original": "1567926"
-    },
-    "f9": {
-      "Path": "mods/TinkerToolLeveling-1.12.2-1.1.0.jar",
-      "Size": "91043",
-      "Hash": "f9253fe86c6649afbf49d221c71ba19a",
-      "Original": "95850"
-    },
-    "38": {
-      "Path": "mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
-      "Size": "652968",
-      "Hash": "38a0c024f5775b0cf783de839033f8db",
-      "Original": "728082"
-    },
-    "3c": {
-      "Path": "mods/Traverse-1.12.2-1.6.0-69.jar",
-      "Size": "219893",
-      "Hash": "3cc748cd333cab2e5f8132a89cd40b48",
-      "Original": "270133"
-    },
-    "94": {
-      "Path": "mods/Baubles-1.12-1.5.2.jar",
-      "Size": "97216",
-      "Hash": "944dec4ef3fbfd4d498d94a7047af201",
-      "Original": "108450"
-    },
-    "1e": {
-      "Path": "mods/extrautils2-1.12-1.9.9.jar",
-      "Size": "2816329",
-      "Hash": "1ea591619e6d5204bf077214868772ef",
-      "Original": "3226408"
-    },
-    "92": {
-      "Path": "mods/ExtremeReactors-1.12.2-0.4.5.67.jar",
-      "Size": "881160",
-      "Hash": "92e5cc48aca43add940af096e7694141",
-      "Original": "1110113"
-    },
-    "1f": {
-      "Path": "mods/DarknessLib-1.12.2-1.1.0.jar",
-      "Size": "42830",
-      "Hash": "1ffa30777a3781990908de88e1a4324d",
-      "Original": "50647"
-    },
-    "df": {
-      "Path": "mods/BetterDiving-1.12.2-1.5.7.jar",
-      "Size": "8137582",
-      "Hash": "df8e8e1afb303efb34a471c79a760011",
-      "Original": "8229026"
-    },
-    "33": {
-      "Path": "mods/CyclopsCore-1.12.2-1.6.6.jar",
-      "Size": "934545",
-      "Hash": "33910a90574e8a6c91448049815aadc4",
-      "Original": "1061041"
-    },
-    "e4": {
-      "Path": "mods/CraftPresence-1.12.2-1.6.6.jar",
-      "Size": "394558",
-      "Hash": "e475f1948f4262b5a8b7fcebca7cc59d",
-      "Original": "421712"
-    },
-    "e7": {
-      "Path": "mods/guns-0.15.3-1.12.2.jar",
-      "Size": "781076",
-      "Hash": "e7bdc91c4c17a75bce67b6e523869340",
-      "Original": "814386"
-    },
-    "89": {
-      "Path": "mods/ProgressiveBosses-1.5.4-mc1.12.x.jar",
-      "Size": "58281",
-      "Hash": "89b1d4876a4523ca61692a874f34284c",
-      "Original": "69818"
-    },
-    "37": {
-      "Path": "mods/ElevatorMod-1.12.2-1.3.14.jar",
-      "Size": "60196",
-      "Hash": "3726325984b2f3d35ee284fcaeed21c1",
-      "Original": "108444"
-    },
-    "91": {
-      "Path": "mods/Patchouli-1.0-21.jar",
-      "Size": "439847",
-      "Hash": "91b259ab3aadfcc5afeffdc6ec79220b",
-      "Original": "470042"
-    },
-    "71": {
-      "Path": "mods/TConstruct-1.12.2-2.13.0.183.jar",
-      "Size": "3350108",
-      "Hash": "710d64342d41042b7d6ced891448e727",
-      "Original": "4023372"
-    },
-    "95": {
-      "Path": "mods/NoMoreRecipeConflict-0.131.12.2.jar",
-      "Size": "46262",
-      "Hash": "95ca245f9c463dfa7467575e37d6cb2e",
-      "Original": "50084"
-    },
-    "11": {
-      "Path": "mods/Guide-API-1.12-2.1.8-63.jar",
-      "Size": "154736",
-      "Hash": "117d3d825059fceb0c1d04f8701beb00",
-      "Original": "169528"
-    },
-    "a7": {
-      "Path": "mods/VanillaFix-1.0.10-150.jar",
-      "Size": "914448",
-      "Hash": "a74aaab68100e03f54e35d1007d50169",
-      "Original": "1025896"
-    },
-    "6a": {
-      "Path": "mods/MCDecorationsMod-1.9.0.jar",
-      "Size": "388140",
-      "Hash": "6a13501614a540e861a602e24e107864",
-      "Original": "630328"
     },
     "0b": {
       "Path": "mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
@@ -458,29 +26,17 @@
       "Hash": "0bf91e166b05e83d22455a9c7ec395bb",
       "Original": "2345139"
     },
-    "d8": {
-      "Path": "mods/EnderIO-1.12.2-5.2.59.jar",
-      "Size": "7255618",
-      "Hash": "d86fd6f34b7b93df17d1aeebdf2389e3",
-      "Original": "8117810"
+    "a5": {
+      "Path": "mods/plustic-7.1.6.1.jar",
+      "Size": "483599",
+      "Hash": "a5986fba10310c0e19a65b5eaf25522c",
+      "Original": "546349"
     },
-    "67": {
-      "Path": "mods/DarkUtils-1.12.2-1.8.230.jar",
-      "Size": "342851",
-      "Hash": "672e81d68ebdf0ac8a4cd9f78a38a770",
-      "Original": "426515"
-    },
-    "54": {
-      "Path": "mods/Chisel-MC1.12.2-1.0.2.45.jar",
-      "Size": "3402038",
-      "Hash": "54afc298f94e708f0e1cdf399200b2cb",
-      "Original": "4755282"
-    },
-    "e9": {
-      "Path": "mods/rustic-1.1.6.jar",
-      "Size": "1151171",
-      "Hash": "e9ba7b18d19a341655548a530d24b6c6",
-      "Original": "1390234"
+    "23": {
+      "Path": "mods/CreativeCore_v1.10.29_mc1.12.2.jar",
+      "Size": "1072207",
+      "Hash": "230a8089560eb39a2aecdf01debc0582",
+      "Original": "1178282"
     },
     "85": {
       "Path": "mods/Bookshelf-1.12.2-2.3.590.jar",
@@ -488,17 +44,329 @@
       "Hash": "85a44d3299449545e435f5ec55fc914b",
       "Original": "266636"
     },
+    "7e": {
+      "Path": "mods/furniture-6.3.1-1.12.2.jar",
+      "Size": "2029927",
+      "Hash": "7e4f4d160032658e095eff8221977800",
+      "Original": "2435626"
+    },
+    "00": {
+      "Path": "mods/MekanismTools-1.12.2-9.8.3.390.jar",
+      "Size": "109604",
+      "Hash": "0095f13a729ce5873319e36e29a5b5e1",
+      "Original": "159785"
+    },
+    "d4": {
+      "Path": "mods/cyberware-1.12.2-0.2.11.26.jar",
+      "Size": "761052",
+      "Hash": "d4528eed66d963de6bbee709fb6c2c1a",
+      "Original": "894230"
+    },
+    "6a": {
+      "Path": "mods/MCDecorationsMod-1.9.0.jar",
+      "Size": "388140",
+      "Hash": "6a13501614a540e861a602e24e107864",
+      "Original": "630328"
+    },
+    "54": {
+      "Path": "mods/Chisel-MC1.12.2-1.0.2.45.jar",
+      "Size": "3402038",
+      "Hash": "54afc298f94e708f0e1cdf399200b2cb",
+      "Original": "4755282"
+    },
+    "3b": {
+      "Path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+      "Size": "642459",
+      "Hash": "3b5e44db5ac96fb23a439590b6731a31",
+      "Original": "704330"
+    },
+    "32": {
+      "Path": "mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
+      "Size": "145021",
+      "Hash": "320accf690ccc1c8a23679beb63fb615",
+      "Original": "182379"
+    },
+    "6e": {
+      "Path": "mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+      "Size": "1943153",
+      "Hash": "6eca041bbf28949b60ecf1179d561156",
+      "Original": "2219736"
+    },
+    "d8": {
+      "Path": "mods/EnderIO-1.12.2-5.2.59.jar",
+      "Size": "7255618",
+      "Hash": "d86fd6f34b7b93df17d1aeebdf2389e3",
+      "Original": "8117810"
+    },
+    "91": {
+      "Path": "mods/Patchouli-1.0-21.jar",
+      "Size": "439847",
+      "Hash": "91b259ab3aadfcc5afeffdc6ec79220b",
+      "Original": "470042"
+    },
+    "61": {
+      "Path": "mods/EnderCore-1.12.2-0.5.76.jar",
+      "Size": "592805",
+      "Hash": "6164be012de6ee761e37f54a74074125",
+      "Original": "647959"
+    },
+    "7b": {
+      "Path": "mods/BetterMineshaftsForge-1.12.2-1.3.1.jar",
+      "Size": "276228",
+      "Hash": "7b3a2b0b3d14963e4fd9058fe0816f11",
+      "Original": "288828"
+    },
+    "98": {
+      "Path": "mods/Erebus-1.0.31.jar",
+      "Size": "11151621",
+      "Hash": "98c6ea4b8f617b6c1c1ec84dd20876e1",
+      "Original": "12363576"
+    },
+    "a7": {
+      "Path": "mods/VanillaFix-1.0.10-150.jar",
+      "Size": "914448",
+      "Hash": "a74aaab68100e03f54e35d1007d50169",
+      "Original": "1025896"
+    },
+    "37": {
+      "Path": "mods/ElevatorMod-1.12.2-1.3.14.jar",
+      "Size": "60196",
+      "Hash": "3726325984b2f3d35ee284fcaeed21c1",
+      "Original": "108444"
+    },
+    "95": {
+      "Path": "mods/NoMoreRecipeConflict-0.131.12.2.jar",
+      "Size": "46262",
+      "Hash": "95ca245f9c463dfa7467575e37d6cb2e",
+      "Original": "50084"
+    },
+    "39": {
+      "Path": "mods/Stupid+Things-1.12.2-1.1.6.jar",
+      "Size": "1150116",
+      "Hash": "39dd1bef15763bccc63154f9bfc09d41",
+      "Original": "1205052"
+    },
+    "c6": {
+      "Path": "mods/EnderStorage-1.12.2-2.4.6.137-universal.jar",
+      "Size": "188121",
+      "Hash": "c66000e24e8c11675db554c644b31bda",
+      "Original": "223250"
+    },
+    "cd": {
+      "Path": "mods/rats-3.2.14-1.12.2.jar",
+      "Size": "4002406",
+      "Hash": "cd34febe728c37c5e93c6bde375705f5",
+      "Original": "4267490"
+    },
+    "ac": {
+      "Path": "mods/JustEnoughIDs-1.0.3-55.jar",
+      "Size": "873486",
+      "Hash": "ac6f54cb5478dd3d0147aedbfe782d5d",
+      "Original": "982320"
+    },
+    "42": {
+      "Path": "mods/EvilCraft-1.12.2-0.10.78.jar",
+      "Size": "2721050",
+      "Hash": "42b80a6688b5bc6d24f4f197e43890f2",
+      "Original": "2957006"
+    },
+    "ad": {
+      "Path": "mods/betternether-0.1.8.6.jar",
+      "Size": "1577764",
+      "Hash": "ad400778cbe98a73f0a2686190dcd079",
+      "Original": "1769238"
+    },
+    "e7": {
+      "Path": "mods/guns-0.15.3-1.12.2.jar",
+      "Size": "781076",
+      "Hash": "e7bdc91c4c17a75bce67b6e523869340",
+      "Original": "814386"
+    },
+    "3a": {
+      "Path": "mods/rftools-1.12-7.73.jar",
+      "Size": "2600399",
+      "Hash": "3af6f5864243b044a8dd6f2cb1a4b0cf",
+      "Original": "2895803"
+    },
+    "67": {
+      "Path": "mods/DarkUtils-1.12.2-1.8.230.jar",
+      "Size": "342851",
+      "Hash": "672e81d68ebdf0ac8a4cd9f78a38a770",
+      "Original": "426515"
+    },
+    "e9": {
+      "Path": "mods/rustic-1.1.6.jar",
+      "Size": "1151171",
+      "Hash": "e9ba7b18d19a341655548a530d24b6c6",
+      "Original": "1390234"
+    },
+    "33": {
+      "Path": "mods/CyclopsCore-1.12.2-1.6.6.jar",
+      "Size": "934545",
+      "Hash": "33910a90574e8a6c91448049815aadc4",
+      "Original": "1061041"
+    },
+    "1e": {
+      "Path": "mods/extrautils2-1.12-1.9.9.jar",
+      "Size": "2816329",
+      "Hash": "1ea591619e6d5204bf077214868772ef",
+      "Original": "3226408"
+    },
+    "76": {
+      "Path": "mods/randomtweaks-1.12.2-2.8.2.0.jar",
+      "Size": "255181",
+      "Hash": "766ed55a0f37b4d1f3a3d992c6bdd52b",
+      "Original": "287170"
+    },
+    "b1": {
+      "Path": "mods/UniDict-1.12.2-2.9.2.jar",
+      "Size": "182279",
+      "Hash": "b1ba004241d86a3e1280c8911c2b4ff2",
+      "Original": "192476"
+    },
+    "1f": {
+      "Path": "mods/DarknessLib-1.12.2-1.1.0.jar",
+      "Size": "42830",
+      "Hash": "1ffa30777a3781990908de88e1a4324d",
+      "Original": "50647"
+    },
+    "11": {
+      "Path": "mods/Guide-API-1.12-2.1.8-63.jar",
+      "Size": "154736",
+      "Hash": "117d3d825059fceb0c1d04f8701beb00",
+      "Original": "169528"
+    },
+    "e6": {
+      "Path": "mods/AbyssalCraft-1.12.2-1.10.2.jar",
+      "Size": "13019362",
+      "Hash": "e68c78014063eaf081013a04c03e1cca",
+      "Original": "14207183"
+    },
+    "c1": {
+      "Path": "mods/CoFHWorld-1.12.2-1.3.1.7-universal.jar",
+      "Size": "483738",
+      "Hash": "c196ade3fe4f33b4d38b4de43326ae2d",
+      "Original": "532040"
+    },
+    "df": {
+      "Path": "mods/BetterDiving-1.12.2-1.5.7.jar",
+      "Size": "8137582",
+      "Hash": "df8e8e1afb303efb34a471c79a760011",
+      "Original": "8229026"
+    },
+    "f1": {
+      "Path": "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+      "Size": "774939",
+      "Hash": "f147d3b87f97bb317e1c37cba0dde002",
+      "Original": "848187"
+    },
+    "a3": {
+      "Path": "mods/MagmaMonsters-0.3.0.jar",
+      "Size": "150705",
+      "Hash": "a3182ce48ab3ac31e4d37fb0acc10a1b",
+      "Original": "157133"
+    },
+    "27": {
+      "Path": "mods/vehicle-mod-0.44.1-1.12.2.jar",
+      "Size": "2056606",
+      "Hash": "276818770667c1bff569d92287c53d95",
+      "Original": "2139906"
+    },
+    "8a": {
+      "Path": "mods/Explorercraft-2.2.14.jar",
+      "Size": "530910",
+      "Hash": "8ab9f77b52301b29e1db167b2764b01b",
+      "Original": "704876"
+    },
+    "09": {
+      "Path": "mods/Hwyla-1.8.20-B35_1.12.jar",
+      "Size": "428490",
+      "Hash": "098b752cc2015b48247a4df9617d6268",
+      "Original": "457270"
+    },
+    "e8": {
+      "Path": "mods/Pam\u0027s+HarvestCraft+1.12.2zg.jar",
+      "Size": "2656425",
+      "Hash": "e8e1ac67accdeea50116e1e92e592397",
+      "Original": "4912890"
+    },
+    "c4": {
+      "Path": "mods/VariedCommodities_1.12.2(21nov19).jar",
+      "Size": "1250344",
+      "Hash": "c4abbbf3e8705c5be1769f7617041803",
+      "Original": "1567926"
+    },
+    "5b": {
+      "Path": "mods/Botania+r1.10-363.jar",
+      "Size": "12984287",
+      "Hash": "5ba76d3db9345fa9e398523bddda59f3",
+      "Original": "13814617"
+    },
     "45": {
       "Path": "mods/mcjtylib-1.12-3.5.4.jar",
       "Size": "503264",
       "Hash": "45ac9983da9fd2bc7fe3446b9f4287c1",
       "Original": "544856"
     },
-    "ec": {
-      "Path": "mods/foamfix-0.10.5-1.12.2.jar",
-      "Size": "190939",
-      "Hash": "ec2829750206833af9ee098c5ddb8e32",
-      "Original": "211210"
+    "f7": {
+      "Path": "mods/PlayerRevive_v1.2.35_mc1.12.2.jar",
+      "Size": "5125154",
+      "Hash": "f7ae98bdc5f46acb3eed5bae8d3c952b",
+      "Original": "5131964"
+    },
+    "d7": {
+      "Path": "mods/MekanismGenerators-1.12.2-9.8.3.390.jar",
+      "Size": "293289",
+      "Hash": "d75ddb11a6c1353b046c70d8904fe61e",
+      "Original": "336364"
+    },
+    "28": {
+      "Path": "mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+      "Size": "83649",
+      "Hash": "28970430074736ae6efbe4f7c353b30a",
+      "Original": "98845"
+    },
+    "3c": {
+      "Path": "mods/Traverse-1.12.2-1.6.0-69.jar",
+      "Size": "219893",
+      "Hash": "3cc748cd333cab2e5f8132a89cd40b48",
+      "Original": "270133"
+    },
+    "89": {
+      "Path": "mods/ProgressiveBosses-1.5.4-mc1.12.x.jar",
+      "Size": "58281",
+      "Hash": "89b1d4876a4523ca61692a874f34284c",
+      "Original": "69818"
+    },
+    "35": {
+      "Path": "mods/randompatches-1.12.2-1.22.1.1.jar",
+      "Size": "261614",
+      "Hash": "35857b7f89254226f83ab62468a01812",
+      "Original": "293018"
+    },
+    "b9": {
+      "Path": "mods/RandomThings-MC1.12.2-4.2.7.4.jar",
+      "Size": "2629698",
+      "Hash": "b91502e1810cdf13dfd5fb3b4e15e5ad",
+      "Original": "3292861"
+    },
+    "94": {
+      "Path": "mods/Baubles-1.12-1.5.2.jar",
+      "Size": "97216",
+      "Hash": "944dec4ef3fbfd4d498d94a7047af201",
+      "Original": "108450"
+    },
+    "cc": {
+      "Path": "mods/architecturecraft-1.12-3.98.jar",
+      "Size": "842643",
+      "Hash": "cc964d41fad4832a0850cf9da45d0414",
+      "Original": "921733"
+    },
+    "81": {
+      "Path": "mods/journeymap-1.12.2-5.7.1.jar",
+      "Size": "6453933",
+      "Hash": "8160b970fc14cff30dff2785bb9f964c",
+      "Original": "6990968"
     },
     "2d": {
       "Path": "mods/Forgelin-1.8.4.jar",
@@ -506,17 +374,149 @@
       "Hash": "2da79fce72265eab0541e565636d389d",
       "Original": "6278399"
     },
+    "e0": {
+      "Path": "mods/Clumps-3.1.2.jar",
+      "Size": "11356",
+      "Hash": "e0c4c4f04aeb0e0a48fc7534f9e7d6be",
+      "Original": "13792"
+    },
+    "6f": {
+      "Path": "mods/ChestTransporter-1.12.2-2.8.8.jar",
+      "Size": "126327",
+      "Hash": "6f5aadb16a4357aad4b8bc662b76de77",
+      "Original": "314060"
+    },
+    "92": {
+      "Path": "mods/ExtremeReactors-1.12.2-0.4.5.67.jar",
+      "Size": "881160",
+      "Hash": "92e5cc48aca43add940af096e7694141",
+      "Original": "1110113"
+    },
+    "f4": {
+      "Path": "mods/HardcoreDarkness-MC1.12.2-2.0.jar",
+      "Size": "28668",
+      "Hash": "f4bdcba26a2f6d3dff66856e47ebbecc",
+      "Original": "32327"
+    },
+    "49": {
+      "Path": "mods/InfernalMobs-1.12.2.jar",
+      "Size": "165576",
+      "Hash": "490f29a18ad3445f4dbd0616e9c06b0d",
+      "Original": "183579"
+    },
+    "ce": {
+      "Path": "mods/bettercaves-1.12.2-2.0.4.jar",
+      "Size": "175854",
+      "Hash": "ceb9c88ab5f8f3514a28ad7244b81757",
+      "Original": "193604"
+    },
+    "d3": {
+      "Path": "mods/BetterFps-Mod-1.12.2.jar",
+      "Size": "138776",
+      "Hash": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4",
+      "Original": "155196"
+    },
+    "90": {
+      "Path": "mods/BloodMagic-1.12.2-2.4.3-105.jar",
+      "Size": "6863294",
+      "Hash": "90f67913247c8cf549836d724efc87fc",
+      "Original": "7208594"
+    },
+    "da": {
+      "Path": "mods/WanionLib-1.12.2-2.2.jar",
+      "Size": "116576",
+      "Hash": "da46d9a391cb6ac4d3bd453db2158e58",
+      "Original": "129188"
+    },
+    "02": {
+      "Path": "mods/jei_1.12.2-4.15.0.268.jar",
+      "Size": "589126",
+      "Hash": "02f985065e7a2fdd17196b3030a067a4",
+      "Original": "647239"
+    },
+    "8f": {
+      "Path": "mods/armoryexpansion-1.4.2.jar",
+      "Size": "58685",
+      "Hash": "8f0c1e2132892c72af510f1ccfe8a688",
+      "Original": "79038"
+    },
+    "71": {
+      "Path": "mods/TConstruct-1.12.2-2.13.0.183.jar",
+      "Size": "3350108",
+      "Hash": "710d64342d41042b7d6ced891448e727",
+      "Original": "4023372"
+    },
+    "38": {
+      "Path": "mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+      "Size": "652968",
+      "Hash": "38a0c024f5775b0cf783de839033f8db",
+      "Original": "728082"
+    },
+    "a9": {
+      "Path": "mods/conarm-1.12.2-1.2.5.9.jar",
+      "Size": "731729",
+      "Hash": "a91589e2f96fc28bc05c2dac88d4a95d",
+      "Original": "894608"
+    },
+    "f9": {
+      "Path": "mods/TinkerToolLeveling-1.12.2-1.1.0.jar",
+      "Size": "91043",
+      "Hash": "f9253fe86c6649afbf49d221c71ba19a",
+      "Original": "95850"
+    },
+    "93": {
+      "Path": "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "Size": "28320",
+      "Hash": "93b1715f05be1878da93fca36dd37f2a",
+      "Original": "31802"
+    },
     "77": {
       "Path": "mods/CTM-MC1.12.2-1.0.2.31.jar",
       "Size": "180430",
       "Hash": "77a8bb5486c97e3eaa6f45e5bd768864",
       "Original": "199045"
     },
-    "c6": {
-      "Path": "mods/EnderStorage-1.12.2-2.4.6.137-universal.jar",
-      "Size": "188121",
-      "Hash": "c66000e24e8c11675db554c644b31bda",
-      "Original": "223250"
+    "08": {
+      "Path": "mods/MineTraps-1.12.2-(v.1.0.4).jar",
+      "Size": "129493",
+      "Hash": "083f4eeb18523e4b38f55fe13974dc98",
+      "Original": "165571"
+    },
+    "f8": {
+      "Path": "mods/Trapcraft-1.12.2-2.4.5.jar",
+      "Size": "76480",
+      "Hash": "f83520a3a3c9d21486b1f5cb812f2325",
+      "Original": "92862"
+    },
+    "e4": {
+      "Path": "mods/CraftPresence-1.12.2-1.6.6.jar",
+      "Size": "394558",
+      "Hash": "e475f1948f4262b5a8b7fcebca7cc59d",
+      "Original": "421712"
+    },
+    "0a": {
+      "Path": "mods/Grue-1.12.2-1.8.0.jar",
+      "Size": "557004",
+      "Hash": "0ade0b82f2ee6537be77c5a46322c0d0",
+      "Original": "564997"
+    },
+    "c2": {
+      "Path": "mods/astralsorcery-1.12.2-1.10.27.jar",
+      "Size": "24583883",
+      "Hash": "c2db411b6e678c7e24035cd5c0525264",
+      "Original": "25028160"
+    },
+    "ec": {
+      "Path": "mods/foamfix-0.10.5-1.12.2.jar",
+      "Size": "190939",
+      "Hash": "ec2829750206833af9ee098c5ddb8e32",
+      "Original": "211210"
+    },
+    "10": {
+      "Path": "mods/Mantle-1.12-1.3.3.55.jar",
+      "Size": "759956",
+      "Hash": "1026f5f8d3c4997831decd9023ca65a6",
+      "Original": "843486"
     }
   }
 }
