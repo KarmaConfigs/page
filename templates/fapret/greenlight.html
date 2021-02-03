@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Copyright (c) 2021 Fapret All Rights Reserved. -->
+<html>
+<head>
+    <title>LockLogin password recovery</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://pdb.fapret.com/stylesheets/email-FapretGreenLight.css" rel="stylesheet">
+    <script type="text/javascript">
+    	var stored_name = null;
+
+		function changeUsers() {
+			var responses = document.getElementsByClassName('user_name');
+			var amount = responses.length;
+			
+			for (var i = amount - 1; i >= 0; i--) {
+				var element = responses[i];
+
+				if (element.innerText.includes("{user_name}")) {
+					stored_name = prompt("Client name");
+				}
+
+				element.innerText = element.innerText.replace("{user_name}", stored_name);
+			}
+		}
+
+		function changeUserImages() {
+			var responses = document.getElementsByClassName('avatar');
+			var amount = responses.length;
+
+			for (var i = amount - 1; i >= 0; i--) {
+				var element = responses[i];
+
+				if (element.innerText.includes("{user_name}")) {
+					stored_name = prompt("Client name");
+				}
+
+				element.src = "https://cravatar.eu/avatar/" + stored_name + ".png"
+			}
+		}
+
+		function changeCodes() {
+			var responses = document.getElementsByClassName('code');
+			var amount = responses.length;
+			
+            var code = null;
+
+			for (var i = amount - 1; i >= 0; i--) {
+				var element = responses[i];
+
+				if (element.innerText.includes("{code}")) {
+					code = prompt("Recovery code");
+				}
+
+				element.innerText = element.innerText.replace("{code}", code);
+			}
+		}
+    </script>
+</head>
+<body onload="changeUsers(); changeUserImages(); changeCodes()">
+<div>
+  <div class="background">
+  </div>
+  <div class="main">
+    <div class="container nav">
+      <img class="company">
+      <span class="company"> Trymate Gaming Servers </span>
+    </div>
+    <div class="container midcontent">
+      <h1>Recuperacion de la cuenta</h1>
+      <h2>Hola! <span class="user_name">Mr.{user_name}</span></h2>
+      <img class="avatar" src="https://cravatar.eu/avatar/{user_name}.png">
+      <p class="text">Notamos que has olvidado tu contraseña. Pero no te preocupes! Aqui estamos para ayudarte,
+          solo debes escribir /recovery <span class="code">{code}</span> para recuperar tu cuenta.</p>
+    </div>
+    <div class="container midcontent">
+      <span class="text">¿Necesitas mas ayuda?</span>
+      <p class="text">Contactanos en alguna de nuestras redes sociales. Intentaremos ayudarte lo antes posible.</p>
+    </div>
+    <div class="container foot">
+      <a href="https://DiscordUrl"><img class="discord"></a>
+      <a href="https://RedditUrl"><img class="reddit"></a>
+      <a href="https://YoutubeUrl"><img class="youtube"></a>
+      <a href="https://TwitterUrl"><img class="twitter"></a>
+      <a href="https://SteamGroupUrl"><img class="steam"></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
