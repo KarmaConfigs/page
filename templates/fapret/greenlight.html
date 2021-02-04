@@ -1,91 +1,194 @@
 <!DOCTYPE html>
-<!-- Copyright (c) 2021 Fapret All Rights Reserved. -->
+<!-- Copyright (c) 2021 Fapret (fapret.com) -->
+<!-- This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License -->
+<!-- TEMPLATE: FapretGreenLight -->
 <html>
 <head>
     <title>LockLogin password recovery</title>
     <meta charset="utf-8">
-    <link href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-    <link href="https://pdb.fapret.com/stylesheets/email-FapretGreenLight.css" rel="stylesheet">
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+      }
+
+      table{
+          border:none;
+      }
+
+      .main {
+          overflow: hidden;
+          text-align: center;
+          color: black;
+          background-color: #cbcbcb;
+          font-family: 'Lato', sans-serif;
+          display: block;
+          margin-top: 5.5rem;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 0;
+          width: 80%;
+          border-radius: 0.7rem;
+      }
+
+      .background-secondary{
+        background-image: repeating-linear-gradient(#00ff7f 15rem, #e9e9e9 0rem, #00ff7f 10000rem);
+        height: 100%;
+        width: 100%;
+        top: 0;
+      }
+
+      .container{
+        width: 100%;
+      }
+
+      .midcontent{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+
+      .nav{
+        background-color: #00a000;
+        height: 3.5rem;
+      }
+
+      .foot{
+        background-color: #00b400;
+        height: 3.5rem;
+      }
+
+      .foot img{
+        height: 2.5rem;
+        margin: 0.5rem;
+      }
+
+      .user_name{
+        color: green;
+      }
+
+      .text{
+        color: #686868;
+      }
+
+      .code {
+          color: red;
+      }
+
+      .company{
+        color: white;
+        vertical-align: middle;
+      }
+
+      img.company{
+        height: 3rem;
+        padding-right:0.5rem;
+      }
+
+      @media (min-width: 650px){
+        .main{
+          width: 30rem;
+        }
+      }
+    </style>
     <script type="text/javascript">
-    	var stored_name = null;
+      var stored_name = null;
 
-		function changeUsers() {
-			var responses = document.getElementsByClassName('user_name');
-			var amount = responses.length;
-			
-			for (var i = amount - 1; i >= 0; i--) {
-				var element = responses[i];
+    function changeUsers() {
+      var responses = document.getElementsByClassName('user_name');
+      var amount = responses.length;
+      
+      for (var i = amount - 1; i >= 0; i--) {
+        var element = responses[i];
 
-				if (element.innerText.includes("{user_name}")) {
-					stored_name = prompt("Client name");
-				}
+        if (element.innerText.includes("{user_name}")) {
+          stored_name = prompt("Client name");
+        }
 
-				element.innerText = element.innerText.replace("{user_name}", stored_name);
-			}
-		}
+        element.innerText = element.innerText.replace("{user_name}", stored_name);
+      }
+    }
 
-		function changeUserImages() {
-			var responses = document.getElementsByClassName('avatar');
-			var amount = responses.length;
+    function changeUserImages() {
+      var responses = document.getElementsByClassName('avatar');
+      var amount = responses.length;
 
-			for (var i = amount - 1; i >= 0; i--) {
-				var element = responses[i];
+      for (var i = amount - 1; i >= 0; i--) {
+        var element = responses[i];
 
-				if (element.innerText.includes("{user_name}")) {
-					stored_name = prompt("Client name");
-				}
+        if (element.innerText.includes("{user_name}")) {
+          stored_name = prompt("Client name");
+        }
 
-				element.src = "https://cravatar.eu/avatar/" + stored_name + ".png"
-			}
-		}
+        element.src = "https://cravatar.eu/avatar/" + stored_name + ".png"
+      }
+    }
 
-		function changeCodes() {
-			var responses = document.getElementsByClassName('code');
-			var amount = responses.length;
-			
+    function changeCodes() {
+      var responses = document.getElementsByClassName('code');
+      var amount = responses.length;
+      
             var code = null;
 
-			for (var i = amount - 1; i >= 0; i--) {
-				var element = responses[i];
+      for (var i = amount - 1; i >= 0; i--) {
+        var element = responses[i];
 
-				if (element.innerText.includes("{code}")) {
-					code = prompt("Recovery code");
-				}
+        if (element.innerText.includes("{code}")) {
+          code = prompt("Recovery code");
+        }
 
-				element.innerText = element.innerText.replace("{code}", code);
-			}
-		}
+        element.innerText = element.innerText.replace("{code}", code);
+      }
+    }
     </script>
 </head>
 <body onload="changeUsers(); changeUserImages(); changeCodes()">
-<div>
-  <div class="background">
-  </div>
-  <div class="main">
-    <div class="container nav">
-      <img class="company">
-      <span class="company"> Trymate Gaming Servers </span>
-    </div>
-    <div class="container midcontent">
-      <h1>Recuperacion de la cuenta</h1>
-      <h2>Hola! <span class="user_name">Mr.{user_name}</span></h2>
+<table width="100%" height="100%" class="background-secondary" cellspacing="0" cellpadding="0">
+<tr>
+  <td>
+  <table class="main" cellspacing="0" cellpadding="0">
+    <tr class="container nav">
+      <td>
+        <!-- Aqui puedes colocar el icono de tu servidor -->
+         <img class="company" src="https://www.spigotmc.org/data/resource_icons/75/75156.jpg">
+          <span class="company"> Server Name </span>
+      </td>
+    </tr>
+    <tr class="container midcontent">
+    <td>
+      <h1>Account recovery</h1>
+      <h2>Hi! <span class="user_name">{user_name}</span></h2>
       <img class="avatar" src="https://cravatar.eu/avatar/{user_name}.png">
-      <p class="text">Notamos que has olvidado tu contraseña. Pero no te preocupes! Aqui estamos para ayudarte,
-          solo debes escribir /recovery <span class="code">{code}</span> para recuperar tu cuenta.</p>
-    </div>
-    <div class="container midcontent">
-      <span class="text">¿Necesitas mas ayuda?</span>
-      <p class="text">Contactanos en alguna de nuestras redes sociales. Intentaremos ayudarte lo antes posible.</p>
-    </div>
-    <div class="container foot">
-      <a href="https://DiscordUrl"><img class="discord"></a>
-      <a href="https://RedditUrl"><img class="reddit"></a>
-      <a href="https://YoutubeUrl"><img class="youtube"></a>
-      <a href="https://TwitterUrl"><img class="twitter"></a>
-      <a href="https://SteamGroupUrl"><img class="steam"></a>
-    </div>
-  </div>
-</div>
+      <p class="text">We noticed you've lost your password. But don't worry! We're here to help you,
+          just type /recovery <span class="code">{code}</span> to recover your account.</p>
+          </td>
+    </tr>
+    <tr class="container midcontent">
+    <td>
+      <span class="text">¿Need more help?</span>
+      <p class="text">Contact us in any of our social media. We will try to help you.</p>
+      </td>
+    </tr>
+    <tr class="container foot">
+    <td>
+      <!-- Aqui puedes colocar las redes sociales de tu servidor -->
+      <a href="https://DiscordUrl"><img class="discord" src="https://karmaconfigs.ml/img/logo/discord.png"></a>
+      <a href="https://RedditUrl"><img class="reddit" src="https://karmaconfigs.ml/img/logo/reddit.png"></a>
+      <a href="https://YoutubeUrl"><img class="youtube" src="https://karmaconfigs.ml/img/logo/youtube.png"></a>
+      <a href="https://TwitterUrl"><img class="twitter" src="https://karmaconfigs.ml/img/logo/twitter.png"></a>
+      <a href="https://SteamGroupUrl"><img class="steam" src="https://karmaconfigs.ml/img/logo/steam.png"></a>
+      </td>
+    </tr>
+  </table>
+  <!-- licencia -->
+  <table class="main">
+  <tr>
+  <td>
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This source is under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License Atribution-ShareAdapt 4.0 International</a>, by Fapret (fapret.com).
+    </td>
+    </tr>
+  </table>
+  </td>
+  </tr>
+</table>
 </body>
 </html>
