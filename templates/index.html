@@ -25,6 +25,30 @@
 			font-family: 'Yusei Magic', sans-serif;
 		}
 
+		.download {
+			border-radius: 25px;
+			background: gray;
+			text-align: center;
+			vertical-align: middle;
+			width: 200px;
+			color: black;
+			font-family: 'Shoulders Display', cursive;
+		}
+
+		.default {
+			float: left;
+			margin: 10px;
+			background-color: lightgray;
+			border-radius: 25px;
+			background: gray;
+			text-align: center;
+			vertical-align: middle;
+			height: 220px;
+			width: 200px;
+			color: black;
+			font-family: 'Shoulders Display', cursive;
+		}
+
 		.greenlight {
 			float: left;
 			margin: 10px;
@@ -69,6 +93,30 @@
   			transform: scale(1.3);
 		}
 	</style>
+	<script type="text/javascript" src="jszip.js"></script>
+	<script type="text/javascript" src="FileSaver.js"></script>
+	<script type="text/javascript">
+		function downloadPack(identifier) {
+			var zip = new JSZip();
+
+			if (identifier.includes('default')) {
+				zip.file('default.html', 'https://karmaconfigs.ml/templates/karmadev/default.html');
+			}
+
+			if (identifier.includes('light green')) {
+				zip.file('default.html', 'https://karmaconfigs.ml/templates/karmadev/default.html');
+			}
+
+			if (identifier.includes('nocturn blue')) {
+				zip.file('default.html', 'https://karmaconfigs.ml/templates/karmadev/default.html');
+			}
+
+			zip.generateAsync({type:"blob"}).
+			then(function(content) {
+				saveAs(content, "template.zip")
+			});
+		}
+	</script>
 </head>
 <body>
 	<header>
@@ -86,24 +134,33 @@
         <p class="menu cta">Menu</p>
     </header>
 	<div class="themes">
-		<a class="link" href="https://karmaconfigs.ml/templates/karmadev/default.html" target="_blank">
-			<div class="greenlight">
+		<div class="default">
+			<a class="link" href="https://karmaconfigs.ml/templates/karmadev/default.html" target="_blank">
 				<h5>Default dark by <span class="author">KarmaDev</span></h5>
 				<img class="preview" src="https://karmaconfigs.ml/templates/img/default.png" alt="default dark preview" width="200px", height="200px">
-			</div>
-		</a>
-		<a class="link" href="https://karmaconfigs.ml/templates/fapret/greenlight.html" target="_blank">
-			<div class="greenlight">
+			</a>
+			<a class="link" href="https://karmaconfigs.ml/templates/downloads/default.zip" target="_blank">
+				<h5 class="download">Download default</h5>
+			</a>
+		</div>
+		<div class="greenlight">
+			<a class="link" href="https://karmaconfigs.ml/templates/fapret/greenlight.html" target="_blank">
 				<h5>Green light by <span class="author">Fapret</span></h5>
 				<img class="preview" src="https://karmaconfigs.ml/templates/img/lightgreen.png" alt="green light preview" width="200px", height="200px">
-			</div>
-		</a>
-		<a class="link" href="https://karmaconfigs.ml/templates/fapret/darkblue.html">
-			<div class="darkblue">
+			</a>
+			<a class="link" href="https://karmaconfigs.ml/templates/downloads/lightgreen.zip" target="_blank">
+				<h5 class="download">Download green light</h5>
+			</a>
+		</div>
+		<div class="darkblue">
+			<a class="link" href="https://karmaconfigs.ml/templates/fapret/darkblue.html">
 				<h5>Nocturn blue by <span class="author">Fapret</span></h5>
 				<img class="preview" src="https://karmaconfigs.ml/templates/img/darkblue.png" alt="dark blue preview" width="200px", height="200px">
-			</div>
-		</a>
+			</a>
+			<a class="link" href="https://karmaconfigs.ml/templates/downloads/bluenocturn.zip" target="_blank">
+				<h5 class="download">Download nocturn blue</h5>
+			</a>
+		</div>
 	</div>
 </body>
 </html>
