@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- TEMPLATE: DarkDefault -->
+<html>
+<head>
+    <!-- Thanks Fapret for fixing pre-release templates -->
+    <title>LockLogin password recovery</title>
+    <meta charset="utf-8">
+
+    <!-- Google fonts imports -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            background-color: #262626;
+        }
+
+        div {
+            text-align: center;
+            color: #64FFD6;
+            background-color: #262626;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .user_input {
+            color: white;
+        }
+
+        .code_input {
+            color: #56dcb8;
+        }
+
+    </style>
+    <script type="text/javascript">
+    var stored_name = null;
+
+    function changeUsers() {
+      var responses = document.getElementsByClassName('user_name');
+      var amount = responses.length;
+      
+      for (var i = amount - 1; i >= 0; i--) {
+        var element = responses[i];
+
+        if (stored_name == null) {
+          stored_name = prompt("Client name");
+        }
+
+        element.innerText = element.innerText.replace("{user_name}", stored_name);
+      }
+    }
+
+    function changeUserImages() {
+      var responses = document.getElementsByClassName('avatar');
+      var amount = responses.length;
+
+      for (var i = amount - 1; i >= 0; i--) {
+        var element = responses[i];
+
+        if (stored_name == null) {
+          stored_name = prompt("Client name");
+        }
+
+        element.src = "https://cravatar.eu/avatar/" + stored_name + ".png"
+      }
+    }
+
+    function changeCodes() {
+      var responses = document.getElementsByClassName('code');
+      var amount = responses.length;
+      
+      var code = null;
+
+      for (var i = amount - 1; i >= 0; i--) {
+        var element = responses[i];
+
+        if (code == null) {
+          code = prompt("Recovery code");
+        }
+
+        element.innerText = element.innerText.replace("{code}", code);
+      }
+    }
+    </script>
+</head>
+<body onload="changeUsers(); changeUserImages(); changeCodes()">
+<div>
+    <h1>Hi! <span class="user_name">{user_name}</span></h1>
+    <img class="avatar" src="https://cravatar.eu/avatar/{user_name}.png">
+    <h4>We noticed you've lost your password<br>But don't worry! LockLogin is here to help you</h4>
+    <h4>Type /recovery <span class="code">{code}</span> to recover your account</h4>
+</div>
+</body>
+</html>
