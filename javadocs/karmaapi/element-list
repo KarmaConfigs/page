@@ -1,0 +1,12 @@
+ml.karmaconfigs.api.bukkit
+ml.karmaconfigs.api.bukkit.inventories
+ml.karmaconfigs.api.bukkit.karmaserver
+ml.karmaconfigs.api.bukkit.karmayaml
+ml.karmaconfigs.api.bukkit.reflections
+ml.karmaconfigs.api.bukkit.soundutil
+ml.karmaconfigs.api.bukkit.timer
+ml.karmaconfigs.api.bungee
+ml.karmaconfigs.api.bungee.karmayaml
+ml.karmaconfigs.api.bungee.makeiteasy
+ml.karmaconfigs.api.common
+ml.karmaconfigs.api.common.exception
