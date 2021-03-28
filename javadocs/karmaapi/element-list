@@ -3,6 +3,7 @@ ml.karmaconfigs.api.bukkit.inventories
 ml.karmaconfigs.api.bukkit.karmaserver
 ml.karmaconfigs.api.bukkit.karmayaml
 ml.karmaconfigs.api.bukkit.reflections
+ml.karmaconfigs.api.bukkit.reflections.boss
 ml.karmaconfigs.api.bukkit.soundutil
 ml.karmaconfigs.api.bukkit.timer
 ml.karmaconfigs.api.bungee
