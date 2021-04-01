@@ -11,3 +11,5 @@ ml.karmaconfigs.api.bungee.karmayaml
 ml.karmaconfigs.api.bungee.makeiteasy
 ml.karmaconfigs.api.common
 ml.karmaconfigs.api.common.exception
+ml.karmaconfigs.api.common.karmafile
+ml.karmaconfigs.api.common.utils
