@@ -9,6 +9,7 @@ ml.karmaconfigs.api.bukkit.timer
 ml.karmaconfigs.api.bungee
 ml.karmaconfigs.api.bungee.karmayaml
 ml.karmaconfigs.api.bungee.makeiteasy
+ml.karmaconfigs.api.bungee.timer
 ml.karmaconfigs.api.common
 ml.karmaconfigs.api.common.exception
 ml.karmaconfigs.api.common.karmafile
