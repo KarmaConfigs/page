@@ -14,4 +14,9 @@ ml.karmaconfigs.api.common.boss
 ml.karmaconfigs.api.common.exception
 ml.karmaconfigs.api.common.karmafile
 ml.karmaconfigs.api.common.rgb
+ml.karmaconfigs.api.common.timer
 ml.karmaconfigs.api.common.utils
+ml.karmaconfigs.api.velocity
+ml.karmaconfigs.api.velocity.karmayaml
+ml.karmaconfigs.api.velocity.makeiteasy
+ml.karmaconfigs.api.velocity.timer
