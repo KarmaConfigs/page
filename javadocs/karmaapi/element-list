@@ -5,10 +5,12 @@ ml.karmaconfigs.api.bukkit.karmayaml
 ml.karmaconfigs.api.bukkit.reflections
 ml.karmaconfigs.api.bukkit.soundutil
 ml.karmaconfigs.api.bukkit.timer
+ml.karmaconfigs.api.bukkit.util
 ml.karmaconfigs.api.bungee
 ml.karmaconfigs.api.bungee.karmayaml
 ml.karmaconfigs.api.bungee.makeiteasy
 ml.karmaconfigs.api.bungee.timer
+ml.karmaconfigs.api.bungee.util
 ml.karmaconfigs.api.common
 ml.karmaconfigs.api.common.boss
 ml.karmaconfigs.api.common.exception
@@ -20,3 +22,4 @@ ml.karmaconfigs.api.velocity
 ml.karmaconfigs.api.velocity.karmayaml
 ml.karmaconfigs.api.velocity.makeiteasy
 ml.karmaconfigs.api.velocity.timer
+ml.karmaconfigs.api.velocity.util
